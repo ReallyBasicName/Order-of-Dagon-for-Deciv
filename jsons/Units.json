@@ -1,0 +1,142 @@
+[
+	//Order of Dagon
+	
+	{
+		"name": "Deep One",
+		"uniqueTo": "Order of Dagon",
+		"replaces": "Spearman",
+		"unitType": "Scrapper",
+		"movement": 2,
+		"strength": 25,
+		"cost": 50,
+		"upgradesTo": "Militia",
+		"hurryCostModifier": 20,
+		"obsoleteTech": "Rifling",
+		"uniques" : [
+			"Low Tech",
+			"[+50]% Strength <vs [Mounted] units>"
+			],
+		"promotions": ["Amphibious"],
+		"attackSound": "nonmetalhit",
+	},
+	{
+		"name": "Ritualist",
+		"uniqueTo": "Order of Dagon",
+		"replaces": "Machete",
+		"unitType": "Scrapper",
+		"movement": 2,
+		"strength": 24,
+		"cost": 50,
+		"requiredTech": "Steel",
+		"obsoleteTech": "Rifling",
+		"upgradesTo": "Militia",
+		"uniques": [
+			"Low Tech",
+			"[+15] HP when healing",
+			"[+50]% Strength <vs [Low Tech] units>"
+		],
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Recon Cavalry",
+		"uniqueTo": "Order of Dagon",
+		"replaces": "Forward Observer",
+		"unitType": "Scrapper",
+		"movement": 4,
+		"strength": 18,
+		"interceptRange": 1,
+		"cost": 50,
+		"requiredTech": "Rifling",
+		"upgradesTo": "Cavalry",
+		"uniques": [
+			"Personnel",
+			"Mounted",
+			"[+1] Sight",
+			"No defensive terrain bonus",
+			"Can move after attacking",
+			"[-33]% Strength <vs cities> <when attacking>",
+			"Only available <if [Stable] is constructed>",
+			"Consumes [1] [Weapons]"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "shot"
+	},
+	{
+		"name": "Lesser Shoggoth",
+		"uniqueTo": "Order of Dagon",
+		"unitType": "Scrapper",
+		"movement": 3,
+		"strength": 40,
+		"cost": 145,
+		"requiredTech": "Secrets of the Past",
+		"upgradesTo": "Shoggoth",
+		"uniques": [
+			"Personnel",
+			"[+15] HP when healing",
+			"[+50]% Strength <vs [Low Tech] units>",
+			"Only available <if [Monument of the Old Gods] is constructed>"
+		],
+		"promotions": ["Intimidation"],
+		"attackSound": "growl"
+	},
+	{
+		"name": "Shoggoth",
+		"uniqueTo": "Order of Dagon",
+		"unitType": "Scrapper",
+		"movement": 4,
+		"strength": 80,
+		"cost": 370,
+		"requiredTech": "Laboratory",
+		"upgradesTo": "Greater Shoggoth",
+		"uniques": [
+			"Personnel",
+			"[+25] HP when healing",
+			"[+100]% Strength <vs [Low Tech] units>",
+			"Only available <if [Research Lab] is constructed>",
+			"Only available <if [Monument of the Old Gods] is constructed>"
+		],
+		"promotions": ["Intimidation","Sentry"],
+		"attackSound": "growl"
+	},
+	{
+		"name": "Greater Shoggoth",
+		"uniqueTo": "Order of Dagon",
+		"unitType": "Scrapper",
+		"movement": 5,
+		"strength": 120,
+		"cost": 495,
+		"requiredTech": "Genetics",
+		"uniques": [
+			"Personnel",
+			"[+40] HP when healing",
+			"[+200]% Strength <vs [Low Tech] units>",
+			"Only available <if [Research Lab] is constructed>",
+			"Only available <if [Monument of the Old Gods] is constructed>"
+		],
+		"promotions": ["Intimidation","Pursuit","Sentry"],
+		"attackSound": "growl"
+	},
+	{
+		"name": "Great Mystic",
+		"uniqueTo": "Order of Dagon",
+		"replaces": "Great Sage",
+		"unitType": "Civilian",
+		"uniques": [
+			"Can instantly construct a [Hamlet] improvement <by consuming this unit> <if it hasn't used other actions yet>",
+			"Can Spread Religion <for [2] movement> <[4] times> <after which this unit is consumed>",
+			"Removes other religions when spreading religion",
+			"May found a religion <by consuming this unit> <if it hasn't used other actions yet>",
+            "May enhance a religion <by consuming this unit> <if it hasn't used other actions yet>",
+			"May enter foreign tiles without open borders",
+			"[-1] Sight",
+			"Great Person - [Faith]",
+			"Unbuildable",
+			"Uncapturable",
+			"Religious Unit",
+			"Hidden when religion is disabled",
+			"Takes your religion over the one in their birth city"
+		],
+		"movement": 2,
+		"religiousStrength": 1000
+	},
+]

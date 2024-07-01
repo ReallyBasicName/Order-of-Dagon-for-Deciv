@@ -1,0 +1,21 @@
+[
+	{
+		"name": "Hamlet",
+		"production": 1,
+		"happiness": 1,
+		"gold": 1,
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": [
+			"Great Improvement",
+			"Gives a defensive bonus of [10]%",
+			"[+1 Gold] <after discovering [Currency]>",
+			"[+1 Faith] <after discovering [Education]>",
+			"[+1 Gold] <after discovering [Civil Service]>",
+			"[+1 Production] <after discovering [Electronics]>",
+			"[+2 Food] <after discovering [Land Remediation]>",
+			"[+1 Happiness, +1 Gold] <after discovering [Computers]>",
+			"Removes removable features when built",
+			"Pillaging this improvement yields approximately [+20 Gold]"
+		]
+	}
+]

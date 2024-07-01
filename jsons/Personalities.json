@@ -1,0 +1,79 @@
+[
+	/*
+
+	Here is a template to show what values should be filled in. 
+	Use the description at http://civdata.com/, and adjust the numbers accordingly.
+	Even then, its up to personal interpretation.
+	To generate lines with multiple parameters I used the function: (FirstParam + (SecondParam - 5) / 2).
+
+	{
+		"name": "Template",
+		// Stats focused personalities
+		"culture": Culture,
+		"faith": Religion,
+		"food": Growth,
+		"gold": Gold,
+		"happiness": Happiness,
+		"production": Production,
+		"science": Science,
+		// Behavour focused personalities
+		"military": Military Training,
+		"aggressive": Offensive or (10 - defensive) which ever is higher,
+		"declareWar": War,
+		"commerce": Gold + Chattiness,
+		"diplomacy": Diplomatic Balance + Friendly,
+		"loyal": Loyalty + Defense,
+		"expansion": Expansion,
+
+		"priorities": {
+			"Adaptation": Growth + Culture + Defensive,
+			"Expansionism": Expansion + CityStateCompetitiveness + CSFriendly,
+			"Sovereignty": Boldness + War,
+			"Theocracy": Religion + War,
+			"Rationalism": Science + Terraformer,
+			"Constitution": Growth + Culture + Happiness,
+			"Supremacy": Boldness + War,
+			"Monopoly": Gold + Chattiness + CityStateCompetitiveness + CSFriendly,
+			"Collectivism": Defensive + Production,
+			"Naturalism": Growth + Culture + Happiness,
+			"Mechanization": Boldness + Production + Military training,
+			"Bionics": Boldness + Science + Military training + Terraformer
+		},
+		"civilopediaText": [
+			{"text": "."}
+		]
+	},
+	*/
+
+	{
+		"name": "Dagon",
+		"production": 5,
+		"food": 5,
+		"gold": 8,
+		"science": 6,
+		"culture": 6,
+		"happiness": 8,
+		"faith": 10,
+		"military": 9,
+		"aggressive": 2,
+		"declareWar": 2,
+		"commerce": 3,
+		"diplomacy": 7,
+		"loyal": 10,
+		"expansion": 5,
+		"priorities": {
+			"Adaptation": 30,
+			"Expansionism": 30,
+			"Sovereignty": 40,
+			"Theocracy": 50,
+			"Rationalism": 0,
+			"Constitution": 0,
+			"Supremacy": 40,
+			"Monopoly": 30,
+			"Collectivism": 0,
+			"Naturalism": 0,
+			"Mechanization": 40,
+			"Bionics": 0
+		}
+	},
+]

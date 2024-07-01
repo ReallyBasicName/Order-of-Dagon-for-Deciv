@@ -1,0 +1,19 @@
+
+Icons:
+
+Nations:
+	Order of Dagon; https://thenounproject.com/icon/sea-serpent-1390018/
+Buildings:
+	Monument of the Old Gods; https://thenounproject.com/icon/antique-buillding-1095426/
+	Breeding Camp; https://thenounproject.com/icon/ruin-3123367/
+	Radio Tower; https://thenounproject.com/icon/radio-tower-999143/
+	Radio Studio; https://thenounproject.com/icon/announcer-50790/
+	Radio Station; https://thenounproject.com/icon/radio-station-4472519/
+Units:
+	Deep One; https://thenounproject.com/icon/kraken-1974742/
+	The Shoggoths; https://thenounproject.com/icon/eye-6917520/
+	Great Mystic; https://thenounproject.com/icon/eye-204931/
+Religion:
+	Order of Dagon; https://thenounproject.com/icon/sea-serpent-1390018/\
+Improvements:
+	Hamlet; https://thenounproject.com/icon/hydra-2128288/

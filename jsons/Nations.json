@@ -1,0 +1,58 @@
+[
+	//Will get events to find COG sites with Choices to Exterminate Them, Enslave Them, or Harvest Them
+	{
+		"name": "Order of Dagon",
+		"leaderName": "Percy Olmstead",
+		"adjective": ["Innsmouth"],
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Domination",
+		"personality": "Dagon",
+		"favoredReligion": "Order of Dagon",
+		
+		"startIntroPart1": "The truth lies. The delusions the people believed, the old world, the 'stable' world, where did that bring us? What did they really know? The old government protected them? Failed to protect? No, it was planned. They wanted this. They needed this. Where do you think the politicians went? Dead? Killed in the downfall? No, they hid like cowards. How many COG sites are still up? How many are still alive?",
+		"startIntroPart2": "They lied, while good people died, they lived, they must die.\nWe are secretive, we are alone, we must allow no one to find us.\nWe can trust no one, we can speak to no one, we can join no one.\nDagon guides us now, he will help us seek our goal. No matter the cost.",
+		
+		"declaringWar": "You have learned too much.",
+		"attacked": "Our wraith is now upon you.",
+		"defeated": "This has only delayed the inevitable.",
+		"introduction": "Please, do no disturb us.",
+		
+		"neutralHello": "...",
+		"hateHello": "Leave.",
+		"tradeRequest": "This is needed.",
+		
+		"outerColor": [87, 126, 106],
+		"innerColor": [211, 224, 177],
+		//"outerColor": [97,141,118],
+		//"innerColor": [207,221,169],
+		"style": "Innsmouth",
+		"uniqueName": "Call of Dagon",
+		"uniques": [
+			"Comment [Can search for COG sites (Not Yet Implemented)]",
+			"Starts with [Iron Working]",
+			"[+1 Faith] from every [Ocean]",
+			"[+2 Faith] from every [Sunken Ruins]",
+			"[+3 Faith] from every [Underwater City]"
+			]
+		"cities": [
+			"Innsmouth",
+			"Kingsport",
+			"Ipswich",
+			"Rowley",
+			"Dunwich",
+			"Arkham",
+			"Hamilton",
+			"Essex",
+			"Wenham",
+			"Georgetown",
+			"Boxford",
+			"Newbury",
+			"Groveland",
+			"Danvers",
+			"Middleton",
+			"Beverly",
+			"West Newbury"
+			]
+        "spyNames": ["Robert", "Williamson", "Obed", "Marsh", "Barnabas", "Zadok", "Joe", "Allen", "Sargent", "Casey"]
+	},
+]

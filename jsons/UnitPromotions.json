@@ -1,0 +1,15 @@
+[
+	//Order of Dagon
+	{
+		"name": "Intimidation",
+		"uniques": [
+			"[-15]% Strength for enemy [All] units in adjacent [All] tiles"
+			]
+	},
+	{
+		"name": "Zealotry",
+		"uniques": [
+			"Earn [50]% of killed [Military] unit's [Strength] as [Faith]"
+			]
+	},
+]

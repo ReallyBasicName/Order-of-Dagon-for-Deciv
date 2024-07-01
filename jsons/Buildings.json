@@ -1,0 +1,111 @@
+[
+	//Order of Dagon
+	{
+		"name": "Monument of the Old Gods",
+		"isWonder": true,
+		"uniqueTo": "Order of Dagon",
+		"culture": 1,
+		"faith": 1,
+		"cost": 1,
+		"uniques": [
+			"[1] free [Lesser Shoggoth] units appear",
+			"Gain a free [Breeding Camp] [in this city]",
+			"Can only be built <in [Capital] cities>"
+		],
+		"quote": "Ph'nglui mglw'nafh Cthulhu R'lyeh wgah'nagl fhtagn.",
+	},
+	{
+		"name": "Council of Mystics",
+		"uniqueTo": "Order of Dagon",
+		"replaces": "Congress",
+		"cost": 100,
+		"requiredTech": "Civil Service",
+		"uniques": [
+			"All newly-trained [Land] units [in all cities] receive the [Zealotry] promotion",
+			"[+1 Faith] per [4] population [in all cities]",
+			"[-1 Happiness] per [6] population [in all cities]",
+			"[+2 Faith, -2 Happiness] [in this city] <when at war>",
+			"[+2 Happiness, -2 Faith] [in this city] <when not at war>",
+			"Only available <if [Search for Survivors] is constructed>",
+			"Can only be built <in [Capital] cities>",
+			"Only available <in cities without a [The Assembly]>",
+			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "The Assembly",
+		"uniqueTo": "Order of Dagon",
+		"replaces": "Council",
+		"cost": 50,
+		"requiredTech": "Civil Service",
+		"uniques": [
+			"[+10]% growth [in all cities]",
+			"[+2 Food, -2 Production] [in all cities] <when at war>",
+			"[-2 Food, +2 Production] [in all cities] <when not at war>",
+			"[+5]% Production when constructing [All] buildings [in this city]",
+			"Only available <if [Search for Survivors] is constructed>",
+			"Can only be built <in [Capital] cities>",
+			"Only available <in cities without a [Council of Mystics]>",
+			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "Breeding Camp",
+		"uniqueTo": "Order of Dagon",
+		"replaces": "Shrine",
+		"faith": 1,
+		"cost": 50,
+		"uniques": [
+			"[+2]% growth [in this city]",
+			"Provides [1] [Slaves]"
+			],
+	},
+	{
+		"name": "Radio Tower",
+		"uniqueTo": "Order of Dagon",
+		"replaces": "Broadcast Tower",
+		"cost": 225,
+		"faith": 1,
+		"culture": 1,
+		"happiness": 2,
+		// "maintenance": 2,
+		"specialistSlots": { "Administrator": 1 },
+		"percentStatBonus": { "culture": 25 },
+		"uniques": ["Consumes [1] [Power]"],
+		"requiredTech": "Radio"
+	},
+	{
+		"name": "Radio Studio",
+		"uniqueTo": "Order of Dagon",
+		"replaces": "Television Studio",
+		"cost": 275,
+		"faith": 1,
+		"culture": 1,
+		"happiness": 1,
+		"maintenance": 1,
+		"specialistSlots": { "Administrator": 1 },
+		"percentStatBonus": { "faith": 10 },
+		"uniques": [
+			"Only available <in cities with a [Broadcast Tower]>",
+			"Consumes [1] [Power]"
+		],
+		"requiredTech": "Electronics"
+	},
+	{
+		"name": "Radio Station",
+		"uniqueTo": "Order of Dagon",
+		"isNationalWonder": true,
+		"cost": 650,
+		"faith": 1,
+		"culture": 2,
+		"happiness": 3,
+		"specialistSlots": { "Administrator": 1 },
+		"uniques": [
+			"Comment [Begins the search for COG sites (Not yet implemented)]",
+			"Only available <if [Radio Tower] is constructed in all [non-[Puppeted]] cities>",
+			"Only available <if [Radio Studio] is constructed in all [non-[Puppeted]] cities>",
+			"Consumes [1] [Power]"
+		],
+		"requiredTech": "Electronics"
+	},
+]
