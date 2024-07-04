@@ -5,7 +5,6 @@
 		"isWonder": true,
 		"uniqueTo": "Order of Dagon",
 		"culture": 1,
-		"faith": 1,
 		"cost": 1,
 		"uniques": [
 			"[1] free [Lesser Shoggoth] units appear",
