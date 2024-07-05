@@ -9,7 +9,7 @@
 		"uniques": [
 			"[1] free [Lesser Shoggoth] units appear",
 			"Gain a free [Breeding Camp] [in this city]",
-			"Can only be built <in [Capital] cities>"
+			"Automatically built in all cities where it is buildable"
 		],
 		"quote": "Ph'nglui mglw'nafh Cthulhu R'lyeh wgah'nagl fhtagn.",
 	},
