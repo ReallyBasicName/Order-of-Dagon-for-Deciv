@@ -16,4 +16,4 @@
 ### Improvements Icons
 - Hamlet: [hydra](https://thenounproject.com/icon/hydra-2128288/) By Buztas Linggar
 ### Sounds
-- Shoggoth: [Ichthyosaur Growl](https://store.steampowered.com/app/220/HalfLife_2/) from Half Life 2
+- Shoggoth: Ichthyosaur Growl from [Half Life 2](https://store.steampowered.com/app/220/HalfLife_2/)
