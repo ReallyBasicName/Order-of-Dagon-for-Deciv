@@ -15,3 +15,5 @@
 - Order of Dagon: [Sea Serpent](https://thenounproject.com/icon/sea-serpent-1390018/) By Icons Producer
 ### Improvements Icons
 - Hamlet: [hydra](https://thenounproject.com/icon/hydra-2128288/) By Buztas Linggar
+### Sounds
+- Shoggoth: [Half Life 2](https://store.steampowered.com/app/220/HalfLife_2/) I found it in the files, I believe it's unused
