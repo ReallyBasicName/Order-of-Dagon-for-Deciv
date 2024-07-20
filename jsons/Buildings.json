@@ -126,19 +126,21 @@
 	{
 		"name": "Church of Starry Wisdom",
 		"uniqueTo": "Order of Dagon",
-		"replaces": "Megachurch",
-		"faith": 4,
-		"percentStatBonus": {"faith": 10},
+		"replaces": "Grand Monastery",
+		"culture": 1,
+		"faith": 8,
 		"maintenance": 1,
 		"hurryCostModifier": 25,
-		"requiredTech": "Social Engineering",
+		"requiredTech": "Civil Service",
 		"uniques": [
 			"[+2 Faith, +2 Culture, +2 Happiness, +2 Food] [in this city] <with [Necronomicon]> <hidden from users>",
 			"Comment [The wisdom the Other God, Nyarlathotep, is gained here. Maybe he can guide us to a more, Forbidden Knowledge.]",
-			"Only available <in cities with a [Monastery]>",
+			"Only available <if [Monastery] is constructed in all [non-[Puppeted]] cities>",
+			"Cost increases by [30] per owned city",
+			"Can only be built <in [Holy] cities>",
 			"Hidden when religion is disabled",
-			"[+50]% Natural religion spread [in this city] <when above [-2] [Power]>",
-			"Consumes [1] [Power]"
+			"All newly-trained [Philosopher] units [in this city] receive the [Devout] promotion",
+            "All newly-trained [Great Sage] units [in this city] receive the [Devout] promotion"
 		],
 	},
 	{
