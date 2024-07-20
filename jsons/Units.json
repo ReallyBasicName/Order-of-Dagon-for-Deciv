@@ -1,6 +1,5 @@
 [
 	//Order of Dagon
-	
 	{
 		"name": "Deep One",
 		"uniqueTo": "Order of Dagon",
@@ -18,6 +17,22 @@
 			],
 		"promotions": ["Amphibious"],
 		"attackSound": "nonmetalhit",
+	},
+	{
+		"name": "Dagon",
+		"uniqueTo": "Order of Dagon",
+		"unitType": "Eldritch",
+		"movement": 2,
+		"strength": 100,
+		"uniques" : [
+			"Unbuildable",
+			"Cannot be purchased",
+			"[+150]% Strength <vs [Mounted] units>",
+			"[+500]% Strength <vs [Low Tech] units>",
+			"Limited to [1] per Civilization"
+			],
+		"promotions": ["Eldritch Being", "Amphibious", "Seafarer"],
+		"attackSound": "growl",
 	},
 	{
 		"name": "Ritualist",
@@ -67,12 +82,12 @@
 		"unitType": "Scrapper",
 		"movement": 3,
 		"strength": 40,
-		"cost": 145,
+		"cost": 150,
 		"requiredTech": "Secrets of the Past",
 		"upgradesTo": "Shoggoth",
 		"uniques": [
 			"Personnel",
-			"[+15] HP when healing",
+			"[+10] HP when healing",
 			"[+50]% Strength <vs [Low Tech] units>",
 			"Only available <if [Monument of the Old Gods] is constructed>"
 		],
@@ -84,18 +99,18 @@
 		"uniqueTo": "Order of Dagon",
 		"unitType": "Scrapper",
 		"movement": 4,
-		"strength": 80,
-		"cost": 370,
+		"strength": 65,
+		"cost": 375,
 		"requiredTech": "Laboratory",
 		"upgradesTo": "Greater Shoggoth",
 		"uniques": [
 			"Personnel",
-			"[+25] HP when healing",
+			"[+20] HP when healing",
 			"[+100]% Strength <vs [Low Tech] units>",
 			"Only available <if [Research Lab] is constructed>",
 			"Only available <if [Monument of the Old Gods] is constructed>"
 		],
-		"promotions": ["Intimidation","Sentry"],
+		"promotions": ["Intimidation","Pursuit"],
 		"attackSound": "growl"
 	},
 	{
@@ -103,17 +118,97 @@
 		"uniqueTo": "Order of Dagon",
 		"unitType": "Scrapper",
 		"movement": 5,
-		"strength": 120,
-		"cost": 495,
+		"strength": 80,
+		"cost": 500,
 		"requiredTech": "Genetics",
 		"uniques": [
 			"Personnel",
-			"[+40] HP when healing",
+			"[+30] HP when healing",
 			"[+200]% Strength <vs [Low Tech] units>",
 			"Only available <if [Research Lab] is constructed>",
 			"Only available <if [Monument of the Old Gods] is constructed>"
 		],
 		"promotions": ["Intimidation","Pursuit","Sentry"],
+		"attackSound": "growl"
+	},
+	{
+		"name": "K'thugguol",
+		"uniqueTo": "Order of Dagon",
+		"unitType": "Eldritch",
+		"movement": 6,
+		"strength": 100,
+		"cost": 495,
+		"uniques": [
+			"Unbuildable",
+			"Cannot be purchased",
+			"[+40] HP when healing",
+			"[+500]% Strength <vs [Low Tech] units>",
+			"Limited to [1] per Civilization"
+		],
+		"promotions": ["Abyssal","Eldritch Being","Sentry"],
+		"attackSound": "growl"
+	},
+	{
+		"name": "Night-Gaunt",
+		"uniqueTo": "Order of Dagon",
+		"unitType": "Scrapper",
+		"movement": 2,
+		"strength": 55,
+		"requiredTech": "Laboratory",
+		"uniques": [
+			"Personnel",
+			"[+100]% Strength <vs [Low Tech] units>",
+			"May Paradrop up to [5] tiles from inside friendly territory",
+			"Only available <if [Temple of the Black Mirror] is constructed>",
+			"Only available <if [Monument of the Old Gods] is constructed>"
+		],
+		"promotions": ["Intimidation","Gas Mask"],
+		"attackSound": "growl"
+	},
+	{
+		"name": "Yegg-Ha",
+		"uniqueTo": "Order of Dagon",
+		"unitType": "Eldritch",
+		"movement": 3,
+		"strength": 100,
+		"uniques": [
+			"Unbuildable",
+			"Cannot be purchased",
+			"[+500]% Strength <vs [Low Tech] units>",
+			"May Paradrop up to [10] tiles from inside friendly territory",
+			"Limited to [1] per Civilization"
+		],
+		"promotions": ["Eldritch Being","Abyssal","Gas Mask"],
+		"attackSound": "growl"
+	},
+	{
+		"name": "Cthulhu",
+		"uniqueTo": "Order of Dagon",
+		"unitType": "Eldritch",
+		"movement": 3,
+		"strength": 125,
+		"uniques": [
+			"Unbuildable",
+			"Cannot be purchased",
+			"[+500]% Strength <vs [Low Tech] units>",
+			"Limited to [1] per Civilization"
+		],
+		"promotions": ["Eldritch Being","Gas Mask"],
+		"attackSound": "growl"
+	},
+	{
+		"name": "Shub-Niggurath",
+		"uniqueTo": "Order of Dagon",
+		"unitType": "Eldritch",
+		"movement": 3,
+		"strength": 150,
+		"uniques": [
+			"Unbuildable",
+			"Cannot be purchased",
+			"[+500]% Strength <vs [Low Tech] units>",
+			"Limited to [1] per Civilization"
+		],
+		"promotions": ["Eldritch Being","Gas Mask"],
 		"attackSound": "growl"
 	},
 	{

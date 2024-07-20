@@ -1,0 +1,10 @@
+[
+	{
+		"name": "Eldritch",
+		 "uniques": [
+			"Cannot intercept [Stealth] units",
+			"Cannot intercept [Missile] units"
+		],
+		"movementType": "Land"
+	}
+]

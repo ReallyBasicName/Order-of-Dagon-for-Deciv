@@ -1,503 +1,755 @@
 
 game.png
-size: 2048, 256
+size: 2048, 512
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
 BuildingIcons/Breeding Camp
   rotate: false
-  xy: 4, 40
+  xy: 4, 308
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
+BuildingIcons/Call of Cthulhu
+  rotate: false
+  xy: 628, 200
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Call of Dagon
+  rotate: false
+  xy: 628, 200
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Call of K'thugguol
+  rotate: false
+  xy: 628, 200
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Call of Shub-Niggurath
+  rotate: false
+  xy: 628, 200
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Call of Yegg-Ha
+  rotate: false
+  xy: 628, 200
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Eldritch Favor
+  rotate: false
+  xy: 628, 200
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Church of Starry Wisdom
+  rotate: false
+  xy: 836, 408
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 BuildingIcons/Council of Mystics
   rotate: false
-  xy: 1044, 140
+  xy: 944, 408
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Monument of the Old Gods
   rotate: false
-  xy: 1584, 140
+  xy: 1592, 408
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Necronomicon
+  rotate: false
+  xy: 1700, 408
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Necronomicon
+  rotate: false
+  xy: 1700, 408
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Radio Station
   rotate: false
-  xy: 420, 40
+  xy: 212, 308
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Radio Studio
   rotate: false
-  xy: 628, 40
+  xy: 212, 100
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Radio Tower
   rotate: false
-  xy: 836, 40
+  xy: 420, 308
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Shrine of Dagon
+  rotate: false
+  xy: 420, 100
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Temple of the Black Mirror
+  rotate: false
+  xy: 628, 308
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/The Assembly
   rotate: false
-  xy: 1908, 140
+  xy: 736, 200
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Hamlet
   rotate: false
-  xy: 1476, 140
+  xy: 1484, 408
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Order of Dagon
   rotate: false
-  xy: 212, 40
+  xy: 4, 100
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 ReligionIcons/Order of Dagon
   rotate: false
-  xy: 212, 40
+  xy: 4, 100
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Hamlet
   rotate: false
-  xy: 1324, 100
+  xy: 1277, 368
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Anti-Aircraft Gun-Innsmouth
   rotate: false
-  xy: 4, 4
+  xy: 736, 116
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Anti-Tank Gun-Innsmouth
   rotate: false
-  xy: 1044, 104
+  xy: 782, 164
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Archer-Innsmouth
   rotate: false
-  xy: 44, 4
+  xy: 836, 332
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Auxiliary-Innsmouth
   rotate: false
-  xy: 1044, 68
+  xy: 877, 372
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Black Ops-Innsmouth
   rotate: false
-  xy: 1084, 104
+  xy: 103, 64
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Cavalry-Innsmouth
   rotate: false
-  xy: 84, 4
+  xy: 917, 372
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Censor-Innsmouth
   rotate: false
-  xy: 1084, 68
+  xy: 143, 64
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Conscript-Innsmouth
   rotate: false
-  xy: 1124, 104
+  xy: 957, 372
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Crossbowman-Innsmouth
   rotate: false
-  xy: 124, 4
+  xy: 183, 64
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Cthulhu
+  rotate: false
+  xy: 836, 368
+  size: 33, 32
+  orig: 33, 32
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Dagon
+  rotate: false
+  xy: 997, 372
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Deep One
   rotate: false
-  xy: 1124, 68
+  xy: 223, 64
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Dragoon-Innsmouth
   rotate: false
-  xy: 1164, 104
+  xy: 1037, 372
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Drop Troops-Innsmouth
   rotate: false
-  xy: 164, 4
+  xy: 263, 64
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Forward Observer-Innsmouth
   rotate: false
-  xy: 1164, 68
+  xy: 1077, 372
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Great Administrator-Innsmouth
   rotate: false
-  xy: 1204, 104
+  xy: 303, 64
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Great Engineer-Innsmouth
   rotate: false
-  xy: 204, 4
+  xy: 1117, 372
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Great Farmer-Innsmouth
   rotate: false
-  xy: 1204, 68
+  xy: 343, 64
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Great General-Innsmouth
   rotate: false
-  xy: 1244, 104
+  xy: 1157, 372
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Great Merchant-Innsmouth
   rotate: false
-  xy: 244, 4
+  xy: 383, 64
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Great Mystic
   rotate: false
-  xy: 1244, 68
+  xy: 1197, 372
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Great Sage-Innsmouth
   rotate: false
-  xy: 1244, 68
+  xy: 1197, 372
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Great Scientist-Innsmouth
   rotate: false
-  xy: 1284, 104
+  xy: 423, 64
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Greater Shoggoth
   rotate: false
-  xy: 284, 4
+  xy: 1237, 372
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Gunman-Innsmouth
   rotate: false
-  xy: 1284, 68
+  xy: 463, 64
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Horseman-Innsmouth
   rotate: false
-  xy: 324, 4
+  xy: 503, 64
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Hussar-Innsmouth
   rotate: false
-  xy: 1364, 104
+  xy: 1317, 372
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Infantry-Innsmouth
   rotate: false
-  xy: 364, 4
+  xy: 543, 64
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Jetsuit-Innsmouth
   rotate: false
-  xy: 1404, 104
+  xy: 1357, 372
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Units/K'thugguol
+  rotate: false
+  xy: 4, 4
+  size: 37, 30
+  orig: 37, 30
+  offset: 0, 0
+  index: -1
 TileSets/FantasyHex/Units/Lesser Shoggoth
   rotate: false
-  xy: 404, 4
+  xy: 583, 64
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Light Cavalry-Innsmouth
   rotate: false
-  xy: 1444, 104
+  xy: 1397, 372
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Machine Gun-Innsmouth
   rotate: false
-  xy: 444, 4
+  xy: 1437, 372
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Marksman-Innsmouth
   rotate: false
-  xy: 1484, 104
+  xy: 1477, 372
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Militia-Innsmouth
   rotate: false
-  xy: 484, 4
+  xy: 1517, 372
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Modern Infantry-Innsmouth
   rotate: false
-  xy: 1524, 104
+  xy: 1557, 372
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Mounted Worker-Innsmouth
   rotate: false
-  xy: 524, 4
+  xy: 1597, 372
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/NBC Conscript-Innsmouth
   rotate: false
-  xy: 1564, 104
+  xy: 1637, 372
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/NBC Infantry-Innsmouth
   rotate: false
-  xy: 564, 4
+  xy: 1677, 372
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/NBC Marksman-Innsmouth
   rotate: false
-  xy: 1604, 104
+  xy: 1717, 372
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Night-Gaunt
+  rotate: false
+  xy: 1757, 372
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Paratrooper-Innsmouth
   rotate: false
-  xy: 604, 4
+  xy: 1797, 372
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Philosopher-Innsmouth
   rotate: false
-  xy: 1644, 104
+  xy: 1837, 372
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Purge Robot-Innsmouth
   rotate: false
-  xy: 644, 4
+  xy: 1877, 372
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Recon Cavalry
   rotate: false
-  xy: 1684, 104
+  xy: 1917, 372
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Rifleman-Innsmouth
   rotate: false
-  xy: 684, 4
+  xy: 1957, 372
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Ritualist
   rotate: false
-  xy: 1724, 104
+  xy: 736, 80
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Scout-Innsmouth
   rotate: false
-  xy: 724, 4
+  xy: 1997, 372
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Sharpshooter-Innsmouth
   rotate: false
-  xy: 1764, 104
+  xy: 623, 56
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Shoggoth
   rotate: false
-  xy: 764, 4
+  xy: 663, 56
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Units/Shub-Niggurath
+  rotate: false
+  xy: 736, 152
+  size: 38, 40
+  orig: 38, 40
+  offset: 0, 0
+  index: -1
 TileSets/FantasyHex/Units/Skirmisher-Innsmouth
   rotate: false
-  xy: 1804, 104
+  xy: 62, 28
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Soldier-Innsmouth
   rotate: false
-  xy: 804, 4
+  xy: 102, 28
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Trooper-Innsmouth
   rotate: false
-  xy: 1844, 104
+  xy: 142, 28
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Work Boats-Innsmouth
   rotate: false
-  xy: 844, 4
+  xy: 182, 28
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Worker-Innsmouth
   rotate: false
-  xy: 1884, 104
+  xy: 222, 28
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Units/Yegg-Ha
+  rotate: false
+  xy: 62, 64
+  size: 33, 28
+  orig: 33, 28
+  offset: 0, 0
+  index: -1
+UnitIcons/Cthulhu
+  rotate: false
+  xy: 1052, 408
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Dagon
+  rotate: false
+  xy: 1052, 408
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/K'thugguol
+  rotate: false
+  xy: 1052, 408
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Shub-Niggurath
+  rotate: false
+  xy: 1052, 408
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Yegg-Ha
+  rotate: false
+  xy: 1052, 408
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 UnitIcons/Deep One
   rotate: false
-  xy: 1152, 140
+  xy: 1160, 408
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Great Mystic
   rotate: false
-  xy: 1260, 140
+  xy: 1268, 408
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Zealotry
   rotate: false
-  xy: 1260, 140
+  xy: 1268, 408
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Greater Shoggoth
   rotate: false
-  xy: 1368, 140
+  xy: 1376, 408
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Lesser Shoggoth
   rotate: false
-  xy: 1368, 140
+  xy: 1376, 408
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Shoggoth
   rotate: false
-  xy: 1368, 140
+  xy: 1376, 408
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Intimidation
   rotate: false
-  xy: 1368, 140
+  xy: 1376, 408
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Night-Gaunt
+  rotate: false
+  xy: 1808, 408
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Recon Cavalry
   rotate: false
-  xy: 1692, 140
+  xy: 1916, 408
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Ritualist
   rotate: false
-  xy: 1800, 140
+  xy: 628, 92
   size: 100, 100
   orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/1
+  rotate: false
+  xy: 4, 42
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Abyssal
+  rotate: false
+  xy: 4, 42
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Cosmic
+  rotate: false
+  xy: 4, 42
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Despair
+  rotate: false
+  xy: 4, 42
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Eldritch Being
+  rotate: false
+  xy: 4, 42
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Eldritch God
+  rotate: false
+  xy: 4, 42
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Foresight
+  rotate: false
+  xy: 4, 42
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Nexus
+  rotate: false
+  xy: 4, 42
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Overkill
+  rotate: false
+  xy: 4, 42
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Restoration
+  rotate: false
+  xy: 4, 42
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Retribution
+  rotate: false
+  xy: 4, 42
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Severance
+  rotate: false
+  xy: 4, 42
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Transcendental
+  rotate: false
+  xy: 4, 42
+  size: 50, 50
+  orig: 50, 50
   offset: 0, 0
   index: -1

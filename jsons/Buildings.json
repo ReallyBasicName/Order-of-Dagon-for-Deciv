@@ -7,9 +7,8 @@
 		"culture": 1,
 		"cost": 1,
 		"uniques": [
-			"[1] free [Lesser Shoggoth] units appear",
-			"Gain a free [Breeding Camp] [in this city]",
-			"Can only be built <in [Capital] cities>",
+			"[2] free [Deep One] units appear",
+			"Gain a free [Shrine of Dagon] [in this city]",
 			"Automatically built in all cities where it is buildable"
 		],
 		"quote": "Ph'nglui mglw'nafh Cthulhu R'lyeh wgah'nagl fhtagn.",
@@ -40,25 +39,14 @@
 		"requiredTech": "Civil Service",
 		"uniques": [
 			"[+10]% growth [in all cities]",
-			"[+2 Food, -2 Production] [in all cities] <when at war>",
-			"[-2 Food, +2 Production] [in all cities] <when not at war>",
+			"[-1 Food, +2 Production] [in all cities] <when at war>",
+			"[+2 Food, -1 Production] [in all cities] <when not at war>",
 			"[+5]% Production when constructing [All] buildings [in this city]",
 			"Only available <if [Search for Survivors] is constructed>",
 			"Can only be built <in [Capital] cities>",
 			"Only available <in cities without a [Council of Mystics]>",
 			"Destroyed when the city is captured"
 		]
-	},
-	{
-		"name": "Breeding Camp",
-		"uniqueTo": "Order of Dagon",
-		"replaces": "Shrine",
-		"faith": 1,
-		"cost": 50,
-		"uniques": [
-			"[+2]% growth [in this city]",
-			"Provides [1] [Slaves]"
-			],
 	},
 	{
 		"name": "Radio Tower",
@@ -101,11 +89,144 @@
 		"happiness": 3,
 		"specialistSlots": { "Administrator": 1 },
 		"uniques": [
-			"Comment [Begins the search for COG sites (Not yet implemented)]",
+			"Comment [Begins the search for COG sites]",
 			"Only available <if [Radio Tower] is constructed in all [non-[Puppeted]] cities>",
 			"Only available <if [Radio Studio] is constructed in all [non-[Puppeted]] cities>",
 			"Consumes [1] [Power]"
 		],
 		"requiredTech": "Electronics"
+	},
+	{
+		"name": "Shrine of Dagon",
+		"uniqueTo": "Order of Dagon",
+		"replaces": "Shrine",
+		"food": 1,
+		"faith": 1,
+		"cost": 50,
+		"uniques": [
+			"[+1 Faith, +1 Happiness] [in this city] <with [Necronomicon]> <hidden from users>",
+			"Comment [The worshippers of Dagon demand a more, Forbidden Knowledge.]"
+		],
+	},
+	{
+		"name": "Temple of the Black Mirror",
+		"uniqueTo": "Order of Dagon",
+		"replaces": "Monastery",
+		"faith": 2,
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"requiredTech": "Education",
+		"uniques": [
+			"Comment [The Black Mirror is the gateway to other dimensions. Unfortunately we need a more, Forbidden Knowledge, to access it.]",
+			"[+2 Faith, +1 Culture, +1 Happiness] [in this city] <with [Necronomicon]> <hidden from users>",
+			"Only available <in cities with a [Shrine]>",
+			"Hidden when religion is disabled"
+		],
+	},
+	{
+		"name": "Church of Starry Wisdom",
+		"uniqueTo": "Order of Dagon",
+		"replaces": "Megachurch",
+		"faith": 4,
+		"percentStatBonus": {"faith": 10},
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"requiredTech": "Social Engineering",
+		"uniques": [
+			"[+2 Faith, +2 Culture, +2 Happiness, +2 Food] [in this city] <with [Necronomicon]> <hidden from users>",
+			"Comment [The wisdom the Other God, Nyarlathotep, is gained here. Maybe he can guide us to a more, Forbidden Knowledge.]",
+			"Only available <in cities with a [Monastery]>",
+			"Hidden when religion is disabled",
+			"[+50]% Natural religion spread [in this city] <when above [-2] [Power]>",
+			"Consumes [1] [Power]"
+		],
+	},
+	{
+		"name": "Breeding Camp",
+		"uniqueTo": "Order of Dagon",
+		"replaces": "Work Camp",
+		"faith": 1,
+		"percentStatBonus": {"production": 5},
+		"cost": 75,
+		"requiredTech": "Construction",
+		"uniques": [
+			"Comment [To expand the numbers of our army, we need to breed people, willing or not...]",
+			"[+5]% growth [in this city]",
+			"Provides [1] [Slaves]"
+		],
+	},
+	{
+		"name": "Call of Dagon",
+		"uniqueTo": "Order of Dagon",
+		"isNationalWonder": true,
+		"cost": 1,
+		"faith": 1,
+		"uniques": [
+			"[1] free [Dagon] units appear",
+			"Instantly consumes [8] [Eldritch Favor]",
+			"Only available <when above [8] [Eldritch Favor]>"
+		]
+	},
+	{
+		"name": "Call of Cthulhu",
+		"uniqueTo": "Order of Dagon",
+		"isNationalWonder": true,
+		"cost": 1,
+		"faith": 1,
+		"uniques": [
+			"[1] free [Cthulhu] units appear",
+			"Instantly consumes [10] [Eldritch Favor]",
+			"Only available <when above [10] [Eldritch Favor]>"
+		],
+	},
+	{
+		"name": "Call of Shub-Niggurath",
+		"uniqueTo": "Order of Dagon",
+		"isNationalWonder": true,
+		"cost": 1,
+		"faith": 1,
+		"uniques": [
+			"[1] free [Shub-Niggurath] units appear",
+			"Instantly consumes [15] [Eldritch Favor]",
+			"Only available <when above [15] [Eldritch Favor]>"
+		],
+	},
+	{
+		"name": "Call of Yegg-Ha",
+		"uniqueTo": "Order of Dagon",
+		"isNationalWonder": true,
+		"cost": 1,
+		"faith": 1,
+		"uniques": [
+			"[1] free [Yegg-Ha] units appear",
+			"Instantly consumes [8] [Eldritch Favor]",
+			"Only available <when above [8] [Eldritch Favor]>"
+		],
+	},
+	{
+		"name": "Call of K'thugguol",
+		"uniqueTo": "Order of Dagon",
+		"isNationalWonder": true,
+		"cost": 1,
+		"faith": 1,
+		"uniques": [
+			"[1] free [K'thugguol] units appear",
+			"Instantly consumes [8] [Eldritch Favor]",
+			"Only available <when above [8] [Eldritch Favor]>"
+		],
+	},
+	{
+		"name": "Necronomicon",
+		"uniqueTo": "Order of Dagon",
+		"faith": 1,
+		"cost": 75,
+		"uniques": [
+			"Unsellable",
+			"Unbuildable",
+			"Cannot be purchased",
+			"Provides [1] [Necronomicon]",
+			"Will not be displayed in Civilopedia",
+			"Never destroyed when the city is captured"
+			],
 	},
 ]

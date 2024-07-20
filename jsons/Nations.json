@@ -1,5 +1,4 @@
 [
-	//Will get events to find COG sites with Choices to Exterminate Them, Enslave Them, or Harvest Them
 	{
 		"name": "Order of Dagon",
 		"leaderName": "Percy Olmstead",
@@ -28,7 +27,9 @@
 		"style": "Innsmouth",
 		"uniqueName": "Call of Dagon",
 		"uniques": [
-			"Comment [Can search for COG sites (Not Yet Implemented)]",
+			"Triggers a [COG site found!] event <upon turn end> <with [15]% chance> <hidden from users> <if [Radio Station] is constructed>",
+			"Triggers a [A Forbidden Knowledge.] event <upon turn end> <with [5]% chance>  <if [Church of Starry Wisdom] is constructed> <without [Necronomicon]> <hidden from users>",
+			"Comment [Can search for COG sites]",
 			"Starts with [Iron Working]",
 			"[+1 Faith] from every [Ocean]",
 			"[+2 Faith] from every [Sunken Ruins]",

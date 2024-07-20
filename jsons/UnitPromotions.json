@@ -13,13 +13,13 @@
 		"name": "Intimidation",
 		"uniques": [
 			"[-15]% Strength for enemy [All] units in adjacent [All] tiles"
-			]
+		]
 	},
 	{
 		"name": "Zealotry",
 		"uniques": [
 			"Earn [50]% of killed [Military] unit's [Strength] as [Faith]"
-			]
+		]
 	},
 	//Eldritch
 	{
@@ -27,11 +27,24 @@
 		"uniques": [
 			"[-50]% XP gained from combat",
 			]
+		"column": 18,
+        "row": 1
 	},
 	{
 		"name": "Abyssal",
 		"uniques": [
-			"[-20]% Strength for enemy [All] units in adjacent [All] tiles"
+			"[-10]% Strength for enemy [All] units in adjacent [All] tiles"
+			]
+		"unitTypes": [
+			"Eldritch"
+		],
+		"column": 15,
+        "row": 1
+	},
+	{
+		"name": "Cosmic",
+		"uniques": [
+			"[+1] Movement"
 			]
 		"unitTypes": [
 			"Eldritch"
@@ -40,23 +53,14 @@
         "row": 1
 	},
 	{
-		"name": "Cosmic",
-		"uniques": [
-			"[1] additional attacks per turn",
-			]
-		"unitTypes": [
-			"Eldritch"
-		],
-		"column": 18,
-        "row": 1
-	},
-	{
 		"name": "Severance I",
 		"prerequisites": [
-			"Abyssal",
-			"Cosmic"
+			"Abyssal"
+			"Eldritch Being"
 		],
 		"uniques": [
+			"Earn [25]% of killed [Military] unit's [Strength] as [Faith]",
+			"Earn [25]% of killed [Military] unit's [Strength] as [Culture]"
 		],
 		"unitTypes": [
 			"Eldritch"
@@ -68,9 +72,11 @@
 		"name": "Severance II",
 		"prerequisites": [
 			"Severance I",
-			"Nexus I"
 		],
 		"uniques": [
+			"[+10]% Strength <when attacking>",
+			"[+10]% Strength <vs [Personnel] units> <when attacking>",
+			"[-40]% Strength <vs [Missile] units> <when defending>"
 		],
 		"unitTypes": [
 			"Eldritch"
@@ -82,9 +88,10 @@
 		"name": "Severance III",
 		"prerequisites": [
 			"Severance II",
-			"Nexus II"
 		],
 		"uniques": [
+			"[+33]% Strength <vs cities> <when attacking>",
+			"[-33]% Strength <vs cities> <when defending>"
 		],
 		"unitTypes": [
 			"Eldritch"
@@ -96,10 +103,10 @@
 		"name": "Foresight",
 		"prerequisites": [
 			"Severance III",
-			"Nexus III"
 		]
 		,
 		"uniques": [
+			"[+2] Sight",
 		],
 		"unitTypes": [
 			"Eldritch"
@@ -110,58 +117,62 @@
 	{
 		"name": "Nexus I",
 		"prerequisites": [
-			"Abyssal",
 			"Cosmic"
+			"Eldritch Being"
 		],
 		"uniques": [
+			"Earn [50]% of killed [Military] unit's [Strength] as [Gold]"
 		],
 		"unitTypes": [
 			"Eldritch"
 		],
-		"column": 18,
+		"column": 17,
         "row": 2
 	},
 	{
 		"name": "Nexus II",
 		"prerequisites": [
-			"Severance I",
 			"Nexus I"
 		],
 		"uniques": [
+			"[+10]% Strength <when defending>",
+			"[+10]% Strength <vs [Personnel] units> <when defending>",
+			"[-25]% Strength <vs [Missile] units> <when defending>"
 		],
 		"unitTypes": [
 			"Eldritch"
 		],
-		"column": 18,
+		"column": 17,
         "row": 3
 	},
 	{
 		"name": "Nexus III",
 		"prerequisites": [
-			"Severance II",
 			"Nexus II"
 		],
 		"uniques": [
+			"[-50]% Strength <vs cities> <when attacking>",
+			"[+50]% Strength <vs cities> <when defending>"
 		],
 		"unitTypes": [
 			"Eldritch"
 		],
-		"column": 18,
+		"column": 17,
         "row": 4
 	},
 	{
 		"name": "Despair",
 		"prerequisites": [
-			"Severance III",
 			"Nexus III"
 		]
 		,
 		"uniques": [
+			"[-20]% Strength for enemy [All] units in adjacent [All] tiles"
 		],
 		"unitTypes": [
 			"Eldritch"
 		],
-		"column": 18,
+		"column": 17,
         "row": 5
 	},
 	{
@@ -173,8 +184,20 @@
 		"unitTypes": [
 			"Eldritch"
 		],
-		"column": 17,
+		"column": 18,
         "row": 4
+	},
+	{
+		"name": "Restoration",
+		"prerequisites": ["Severance I","Nexus I"],
+		"uniques": [
+			"[+10] HP when healing",
+		],
+		"unitTypes": [
+			"Eldritch"
+		],
+		"column": 18,
+        "row": 3
 	},
 	{
 		"name": "Overkill I",
@@ -220,6 +243,8 @@
 			"Transcendental"
 			],
 		"uniques": [
+			"[+20] HP when healing",
+			"Unit will heal every turn, even if it performs an action"
 		],
 		"unitTypes": [
 			"Eldritch"

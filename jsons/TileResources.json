@@ -1,0 +1,32 @@
+[
+	{
+		"name": "Eldritch Favor",
+		"resourceType": "Strategic",
+		"faith": 1,
+		"uniques": [
+			"Stockpiled",
+			"Cannot be traded",
+			"Excluded from map editor",
+			"Not shown on world screen"
+			],
+		"civilopediaText": [
+			{
+				"text": "If we sacrifice to the Old Gods enough, maybe... they will help us in our goals."
+			}
+		]
+	},
+	{
+		"name": "Necronomicon",
+		"resourceType": "Luxury",
+		"faith": 1,
+		"uniques": [
+			"Cannot be traded",
+			"Excluded from map editor"
+			],
+		"civilopediaText": [
+			{
+				"text": "A book of forbidden knowledge, hidden away. For a reason? Or were they too greedy to share this knowledge?"
+			}
+		]
+	}
+]
