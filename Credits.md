@@ -1,6 +1,6 @@
 
 ### Nation Icons
-- Order of Dagon: [Sea Serpent] (https://thenounproject.com/icon/sea-serpent-1390018/) By Icons Producer
+- Order of Dagon: [Sea Serpent](https://thenounproject.com/icon/sea-serpent-1390018/) By Icons Producer
 ### Building Icons
 - Monument of the Old Gods: [Antique Building](https://thenounproject.com/icon/antique-buillding-1095426/) By Smashicons
 - Breeding Camp: [ruin](https://thenounproject.com/icon/ruin-3123367/) By Tippawan Sookruay
