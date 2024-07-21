@@ -19,7 +19,7 @@
 ### Religion Icons
 - Order of Dagon: [Sea Serpent](https://thenounproject.com/icon/sea-serpent-1390018/) By Icons Producer
 ### Resource Icons
-- Necronomicon: [Book](https://thenounproject.com/icon/book-2051/)
+- Necronomicon: [Book](https://thenounproject.com/icon/book-2051/) By Charles Riccardi
 - Eldritch Favor: [Necronomicon Gate](https://en.wikipedia.org/wiki/Simon_Necronomicon) By Khem Caigan, made for the Simon Necronomicon
 ### Improvements Icons
 - Hamlet: [hydra](https://thenounproject.com/icon/hydra-2128288/) By Buztas Linggar
