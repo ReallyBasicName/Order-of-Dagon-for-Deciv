@@ -154,6 +154,7 @@
 		"unitType": "Scrapper",
 		"movement": 2,
 		"strength": 55,
+		"cost": 250
 		"requiredTech": "Laboratory",
 		"uniques": [
 			"Personnel",
