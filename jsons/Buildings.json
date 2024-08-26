@@ -104,7 +104,7 @@
 		"faith": 1,
 		"cost": 50,
 		"uniques": [
-			"[+1 Faith, +1 Happiness] [in this city] <with [Necronomicon]> <hidden from users>",
+			"[+1 Happiness] [in this city] <with [Necronomicon]> <hidden from users>",
 			"Comment [The worshippers of Dagon demand a more, Forbidden Knowledge.]"
 		],
 	},
@@ -118,7 +118,7 @@
 		"requiredTech": "Education",
 		"uniques": [
 			"Comment [The Black Mirror is the gateway to other dimensions. Unfortunately we need a more, Forbidden Knowledge, to access it.]",
-			"[+2 Faith, +1 Culture, +1 Happiness] [in this city] <with [Necronomicon]> <hidden from users>",
+			"[+1 Faith, +1 Culture, +1 Happiness] [in this city] <with [Necronomicon]> <hidden from users>",
 			"Only available <in cities with a [Shrine]>",
 			"Hidden when religion is disabled"
 		],
@@ -133,7 +133,7 @@
 		"hurryCostModifier": 25,
 		"requiredTech": "Civil Service",
 		"uniques": [
-			"[+2 Faith, +2 Culture, +2 Happiness, +2 Food] [in this city] <with [Necronomicon]> <hidden from users>",
+			"[+1 Faith, +2 Culture, +2 Happiness, +1 Food] [in this city] <with [Necronomicon]> <hidden from users>",
 			"Comment [The wisdom the Other God, Nyarlathotep, is gained here. Maybe he can guide us to a more, Forbidden Knowledge.]",
 			"Only available <if [Monastery] is constructed in all [non-[Puppeted]] cities>",
 			"Cost increases by [30] per owned city",
