@@ -5,21 +5,21 @@
 		"choices": [
 			{
 				"text": "Give them what they deserve, a sacrifical death. Like the people they swore they protected.",
-				"triggeredUniques": [
+				"uniques": [
 					"Instantly provides [1] [Eldritch Favor]",
 					"[+10]% [Happiness] [in capital] <for [5] turns>"
 				]
 			},
 			{
 				"text": "Enslave them, like the dogs they are.",
-				"triggeredUniques": [
+				"uniques": [
 					"[2] free [Conscript] units appear"
 				]
 				"conditions": ["when above [1] [Slaves]"]
 			},
 			{
 				"text": "Kill them all, loot their weapons, there will be no sacrifice this time.",
-				"triggeredUniques": [
+				"uniques": [
 					"[1] free [Infantry] units appear",
 					"[1] free [Infantry] units appear <with [25]% chance>",
 					"[1] free [Marksman] units appear <with [25]% chance>",
@@ -34,7 +34,7 @@
 		"choices": [
 			{
 				"text": "Is this the Forbidden Knowledge our people so desire?",
-				"triggeredUniques": [
+				"uniques": [
 				"Gain a free [Necronomicon] [in capital]",
 				"Comment [Provides [1] [Necronomicon] [in capital]]"
 				]
