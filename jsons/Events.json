@@ -13,9 +13,9 @@
 			{
 				"text": "Enslave them, like the dogs they are.",
 				"uniques": [
-					"[2] free [Conscript] units appear"
+					"[2] free [Conscript] units appear",
+					"Only available <when above [1] [Slaves]>"
 				]
-				"conditions": ["when above [1] [Slaves]"]
 			},
 			{
 				"text": "Kill them all, loot their weapons, there will be no sacrifice this time.",
