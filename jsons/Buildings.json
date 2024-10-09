@@ -40,7 +40,7 @@
 		"uniques": [
 			"[+10]% growth [in all cities]",
 			"[+1 Production, +1 Culture] [in all cities] <when at war>",
-			"[+1 Food, +1 Happiness] [in all cities] <when not at war>",
+			"[+1 Food, +1 Science] [in all cities] <when not at war>",
 			"[+10]% Production when constructing [All] buildings [in this city]",
 			"Only available <if [Search for Survivors] is constructed>",
 			"Can only be built <in [Capital] cities>",
