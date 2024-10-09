@@ -14,7 +14,7 @@
 		"quote": "Ph'nglui mglw'nafh Cthulhu R'lyeh wgah'nagl fhtagn.",
 	},
 	{
-		"name": "Council of Mystics",
+		"name": "The Assembly",
 		"uniqueTo": "Order of Dagon",
 		"replaces": "Congress",
 		"cost": 100,
@@ -27,24 +27,24 @@
 			"[+5]% [Happiness] [in all cities] <when not at war>",
 			"Only available <if [Search for Survivors] is constructed>",
 			"Can only be built <in [Capital] cities>",
-			"Only available <in cities without a [The Assembly]>",
+			"Only available <in cities without a [Council of Mystics]>",
 			"Destroyed when the city is captured"
 		]
 	},
 	{
-		"name": "The Assembly",
+		"name": "Council of Mystics",
 		"uniqueTo": "Order of Dagon",
 		"replaces": "Council",
 		"cost": 50,
 		"requiredTech": "Civil Service",
 		"uniques": [
 			"[+10]% growth [in all cities]",
-			"[+2 Production] [in all cities] <when at war>",
-			"[+2 Food] [in all cities] <when not at war>",
+			"[+1 Production, +1 Culture] [in all cities] <when at war>",
+			"[+1 Food, +1 Happiness] [in all cities] <when not at war>",
 			"[+10]% Production when constructing [All] buildings [in this city]",
 			"Only available <if [Search for Survivors] is constructed>",
 			"Can only be built <in [Capital] cities>",
-			"Only available <in cities without a [Council of Mystics]>",
+			"Only available <in cities without a [The Assembly]>",
 			"Destroyed when the city is captured"
 		]
 	},
