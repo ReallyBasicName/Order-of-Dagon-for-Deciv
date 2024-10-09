@@ -167,7 +167,7 @@
 		"uniques": [
 			"[1] free [Dagon] units appear",
 			"Instantly consumes [10] [Eldritch Favor]",
-			"Only available <when above [8] [Eldritch Favor]>"
+			"Only available <when above [9] [Eldritch Favor]>"
 		]
 	},
 	{
@@ -179,7 +179,7 @@
 		"uniques": [
 			"[1] free [Cthulhu] units appear",
 			"Instantly consumes [10] [Eldritch Favor]",
-			"Only available <when above [10] [Eldritch Favor]>"
+			"Only available <when above [9] [Eldritch Favor]>"
 		],
 	},
 	{
@@ -191,7 +191,7 @@
 		"uniques": [
 			"[1] free [Shub-Niggurath] units appear",
 			"Instantly consumes [15] [Eldritch Favor]",
-			"Only available <when above [15] [Eldritch Favor]>"
+			"Only available <when above [14] [Eldritch Favor]>"
 		],
 	},
 	{
@@ -203,7 +203,7 @@
 		"uniques": [
 			"[1] free [Yegg-Ha] units appear",
 			"Instantly consumes [10] [Eldritch Favor]",
-			"Only available <when above [8] [Eldritch Favor]>"
+			"Only available <when above [9] [Eldritch Favor]>"
 		],
 	},
 	{
@@ -215,7 +215,7 @@
 		"uniques": [
 			"[1] free [K'thugguol] units appear",
 			"Instantly consumes [10] [Eldritch Favor]",
-			//"Only available <when above [8] [Eldritch Favor]>"
+			"Only available <when above [9] [Eldritch Favor]>"
 		],
 	},
 	{
