@@ -39,9 +39,9 @@
 		"requiredTech": "Civil Service",
 		"uniques": [
 			"[+10]% growth [in all cities]",
-			"[-1 Food, +2 Production] [in all cities] <when at war>",
-			"[+2 Food, -1 Production] [in all cities] <when not at war>",
-			"[+5]% Production when constructing [All] buildings [in this city]",
+			"[+2 Production] [in all cities] <when at war>",
+			"[+2 Food] [in all cities] <when not at war>",
+			"[+10]% Production when constructing [All] buildings [in this city]",
 			"Only available <if [Search for Survivors] is constructed>",
 			"Can only be built <in [Capital] cities>",
 			"Only available <in cities without a [Council of Mystics]>",
@@ -113,12 +113,13 @@
 		"uniqueTo": "Order of Dagon",
 		"replaces": "Monastery",
 		"faith": 2,
+		"culture": 1,
 		"maintenance": 1,
 		"hurryCostModifier": 25,
 		"requiredTech": "Education",
 		"uniques": [
 			"Comment [The Black Mirror is the gateway to other dimensions. Unfortunately we need a more, Forbidden Knowledge, to access it.]",
-			"[+1 Faith, +1 Culture, +1 Happiness] [in this city] <with [Necronomicon]> <hidden from users>",
+			"[+1 Culture, +1 Happiness] [in this city] <with [Necronomicon]> <hidden from users>",
 			"Only available <in cities with a [Shrine]>",
 			"Hidden when religion is disabled"
 		],
@@ -165,7 +166,7 @@
 		"faith": 1,
 		"uniques": [
 			"[1] free [Dagon] units appear",
-			"Instantly consumes [8] [Eldritch Favor]",
+			"Instantly consumes [10] [Eldritch Favor]",
 			"Only available <when above [8] [Eldritch Favor]>"
 		]
 	},
@@ -201,7 +202,7 @@
 		"faith": 1,
 		"uniques": [
 			"[1] free [Yegg-Ha] units appear",
-			"Instantly consumes [8] [Eldritch Favor]",
+			"Instantly consumes [10] [Eldritch Favor]",
 			"Only available <when above [8] [Eldritch Favor]>"
 		],
 	},
@@ -213,8 +214,8 @@
 		"faith": 1,
 		"uniques": [
 			"[1] free [K'thugguol] units appear",
-			"Instantly consumes [8] [Eldritch Favor]",
-			"Only available <when above [8] [Eldritch Favor]>"
+			"Instantly consumes [10] [Eldritch Favor]",
+			//"Only available <when above [8] [Eldritch Favor]>"
 		],
 	},
 	{
