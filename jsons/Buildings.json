@@ -72,7 +72,7 @@
 		"happiness": 1,
 		"maintenance": 1,
 		"specialistSlots": { "Administrator": 1 },
-		"percentStatBonus": { "faith": 10 },
+		"percentStatBonus": { "faith": 5 },
 		"uniques": [
 			"Only available <in cities with a [Broadcast Tower]>",
 			"Consumes [1] [Power]"
