@@ -14,37 +14,37 @@
 		"quote": "Ph'nglui mglw'nafh Cthulhu R'lyeh wgah'nagl fhtagn.",
 	},
 	{
-		"name": "Council of Mystics",
+		"name": "The Assembly",
 		"uniqueTo": "Order of Dagon",
 		"replaces": "Congress",
 		"cost": 100,
 		"requiredTech": "Civil Service",
 		"uniques": [
 			"All newly-trained [Land] units [in all cities] receive the [Zealotry] promotion",
-			"[+1 Faith] per [4] population [in all cities]",
-			"[-1 Happiness] per [6] population [in all cities]",
-			"[+2 Faith, -2 Happiness] [in this city] <when at war>",
-			"[+2 Happiness, -2 Faith] [in this city] <when not at war>",
+			"[+1 Faith] per [5] population [in all cities]",
+			"[+1 Happiness] per [8] population [in all cities]",
+			"[+5]% [Faith] [in all cities] <upon declaring war with a major Civilization> <for [6] turns>",
+			"[+5]% [Happiness] [in all cities] <when not at war>",
 			"Only available <if [Search for Survivors] is constructed>",
 			"Can only be built <in [Capital] cities>",
-			"Only available <in cities without a [The Assembly]>",
+			"Only available <in cities without a [Council of Mystics]>",
 			"Destroyed when the city is captured"
 		]
 	},
 	{
-		"name": "The Assembly",
+		"name": "Council of Mystics",
 		"uniqueTo": "Order of Dagon",
 		"replaces": "Council",
 		"cost": 50,
 		"requiredTech": "Civil Service",
 		"uniques": [
 			"[+10]% growth [in all cities]",
-			"[-1 Food, +2 Production] [in all cities] <when at war>",
-			"[+2 Food, -1 Production] [in all cities] <when not at war>",
-			"[+5]% Production when constructing [All] buildings [in this city]",
+			"[+1 Production, +1 Culture] [in all cities] <when at war>",
+			"[+1 Food, +1 Science] [in all cities] <when not at war>",
+			"[+10]% Production when constructing [All] buildings [in this city]",
 			"Only available <if [Search for Survivors] is constructed>",
 			"Can only be built <in [Capital] cities>",
-			"Only available <in cities without a [Council of Mystics]>",
+			"Only available <in cities without a [The Assembly]>",
 			"Destroyed when the city is captured"
 		]
 	},
@@ -72,7 +72,7 @@
 		"happiness": 1,
 		"maintenance": 1,
 		"specialistSlots": { "Administrator": 1 },
-		"percentStatBonus": { "faith": 10 },
+		"percentStatBonus": { "faith": 5 },
 		"uniques": [
 			"Only available <in cities with a [Broadcast Tower]>",
 			"Consumes [1] [Power]"
@@ -113,12 +113,13 @@
 		"uniqueTo": "Order of Dagon",
 		"replaces": "Monastery",
 		"faith": 2,
+		"culture": 1,
 		"maintenance": 1,
 		"hurryCostModifier": 25,
 		"requiredTech": "Education",
 		"uniques": [
 			"Comment [The Black Mirror is the gateway to other dimensions. Unfortunately we need a more, Forbidden Knowledge, to access it.]",
-			"[+1 Faith, +1 Culture, +1 Happiness] [in this city] <with [Necronomicon]> <hidden from users>",
+			"[+1 Culture, +1 Happiness] [in this city] <with [Necronomicon]> <hidden from users>",
 			"Only available <in cities with a [Shrine]>",
 			"Hidden when religion is disabled"
 		],
@@ -165,8 +166,8 @@
 		"faith": 1,
 		"uniques": [
 			"[1] free [Dagon] units appear",
-			"Instantly consumes [8] [Eldritch Favor]",
-			"Only available <when above [8] [Eldritch Favor]>"
+			"Instantly consumes [10] [Eldritch Favor]",
+			"Only available <when above [9] [Eldritch Favor]>"
 		]
 	},
 	{
@@ -178,7 +179,7 @@
 		"uniques": [
 			"[1] free [Cthulhu] units appear",
 			"Instantly consumes [10] [Eldritch Favor]",
-			"Only available <when above [10] [Eldritch Favor]>"
+			"Only available <when above [9] [Eldritch Favor]>"
 		],
 	},
 	{
@@ -190,7 +191,7 @@
 		"uniques": [
 			"[1] free [Shub-Niggurath] units appear",
 			"Instantly consumes [15] [Eldritch Favor]",
-			"Only available <when above [15] [Eldritch Favor]>"
+			"Only available <when above [14] [Eldritch Favor]>"
 		],
 	},
 	{
@@ -201,8 +202,8 @@
 		"faith": 1,
 		"uniques": [
 			"[1] free [Yegg-Ha] units appear",
-			"Instantly consumes [8] [Eldritch Favor]",
-			"Only available <when above [8] [Eldritch Favor]>"
+			"Instantly consumes [10] [Eldritch Favor]",
+			"Only available <when above [9] [Eldritch Favor]>"
 		],
 	},
 	{
@@ -213,8 +214,8 @@
 		"faith": 1,
 		"uniques": [
 			"[1] free [K'thugguol] units appear",
-			"Instantly consumes [8] [Eldritch Favor]",
-			"Only available <when above [8] [Eldritch Favor]>"
+			"Instantly consumes [10] [Eldritch Favor]",
+			"Only available <when above [9] [Eldritch Favor]>"
 		],
 	},
 	{

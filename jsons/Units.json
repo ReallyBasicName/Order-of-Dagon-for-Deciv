@@ -27,7 +27,9 @@
 		"uniques" : [
 			"Unbuildable",
 			"Cannot be purchased",
-			"[+150]% Strength <vs [Mounted] units>",
+			"[+2] Movement <in [Water] tiles>",
+			"[+25]% Strength <when fighting in [Water] tiles>",
+			"[-25]% Strength <when fighting in [Land] tiles>",
 			"[+500]% Strength <vs [Low Tech] units>",
 			"Limited to [1] per Civilization"
 			],
@@ -194,18 +196,21 @@
 			"[+500]% Strength <vs [Low Tech] units>",
 			"Limited to [1] per Civilization"
 		],
-		"promotions": ["Eldritch Being","Gas Mask"],
+		"promotions": ["Eldritch Being","Survivalism"],
 		"attackSound": "growl"
 	},
 	{
 		"name": "Shub-Niggurath",
 		"uniqueTo": "Order of Dagon",
-		"unitType": "Eldritch",
-		"movement": 3,
+		"unitType": "Eldritch"
+		"rangedStrength": 125,
+		"range": 2,
+		"movement": 1,
 		"strength": 150,
 		"uniques": [
 			"Unbuildable",
 			"Cannot be purchased",
+			"Must set up to ranged attack",
 			"[+500]% Strength <vs [Low Tech] units>",
 			"Limited to [1] per Civilization"
 		],
