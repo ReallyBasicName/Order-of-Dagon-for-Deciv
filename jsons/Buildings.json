@@ -121,7 +121,7 @@
 			"Comment [The Black Mirror is the gateway to other dimensions. Unfortunately we need a more, Forbidden Knowledge, to access it.]",
 			"[+1 Culture, +1 Happiness] [in this city] <with [Necronomicon]> <hidden from users>",
 			"Only available <in cities with a [Shrine]>",
-			"Hidden when religion is disabled"
+			"Only available <when religion is enabled>"
 		],
 	},
 	{
@@ -139,7 +139,7 @@
 			"Only available <if [Monastery] is constructed in all [non-[Puppeted]] cities>",
 			"Cost increases by [30] per owned city",
 			"Can only be built <in [Holy] cities>",
-			"Hidden when religion is disabled",
+			"Only available <when religion is enabled>",
 			"All newly-trained [Philosopher] units [in this city] receive the [Devout] promotion",
             "All newly-trained [Great Sage] units [in this city] receive the [Devout] promotion"
 		],
